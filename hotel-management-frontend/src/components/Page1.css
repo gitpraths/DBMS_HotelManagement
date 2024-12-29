@@ -1,0 +1,46 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Header Styling */
+  .page1-header {
+    background-color: #1f1f1f;
+    color: #00adb5;
+    padding: 20px;
+    text-align: center;
+    height: 2.5cm; /* Fixed height for header */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Page 1 Container */
+  .page1-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+    width: 90%;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  }
+  
+  /* Card Styling */
+  .page1-card {
+    background-color: #2a2a2a;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    border-radius: 15px; /* Curved edges */
+    text-align: center;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .page1-card:hover {
+    transform: scale(1.05); /* Hover animation */
+    background-color: #00adb5;
+  }
